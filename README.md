@@ -45,23 +45,25 @@ The dataset includes the following categories:
 
 The file organization follows reproducibility standards for computer vision projects:
 
-├── CODE/                           # Notebooks de Google Colab
-│   ├── MobileNetV2_Rice.ipynb      # Entrenamiento y evaluación de MobileNetV2
-│   ├── EfficientNetB0_Rice.ipynb   # Entrenamiento y evaluación de EfficientNetB0
-│   ├── ResNet50_Rice.ipynb         # Entrenamiento y evaluación de ResNet50
-│   ├── DenseNet121_Rice.ipynb      # Entrenamiento y evaluación de DenseNet121
-│   └── InceptionV3_Rice.ipynb      # Entrenamiento y evaluación de InceptionV3
-├── DATASET/                        # Archivos de datos (comprimidos y extraídos)
-│   ├── PeruvianRiceDataset.rar     # Dataset original de Kaggle
-│   ├── balanceado_aug.rar          # Dataset tras Data Augmentation
-│   └── PeruvianRiceDataset/        # Estructura de carpetas extraída
-│       ├── train/                  # (70%) Carpeta de entrenamiento (entero, mancha, quebrado, tiza)
-│       ├── val/                    # (15%) Carpeta de validación (entero, mancha, quebrado, tiza)
-│       └── test/                   # (15%) Carpeta de prueba (entero, mancha, quebrado, tiza)
-├── .gitattributes                  # Configuración de Git LFS
-├── LICENSE                         # Licencia MIT
-└── README.md                       # Documentación principal
-
+```text
+.
+├── CODE/                           # Google Colab Notebooks
+│   ├── MobileNetV2_Rice.ipynb      # Training and evaluation of MobileNetV2
+│   ├── EfficientNetB0_Rice.ipynb   # Training and evaluation of EfficientNetB0
+│   ├── ResNet50_Rice.ipynb         # Training and evaluation of ResNet50
+│   ├── DenseNet121_Rice.ipynb      # Training and evaluation of DenseNet121
+│   └── InceptionV3_Rice.ipynb      # Training and evaluation of InceptionV3
+├── DATASET/                        # Data files (compressed and extracted)
+│   ├── PeruvianRiceDataset.rar     # Original Kaggle Dataset
+│   ├── balanceado_aug.rar          # Dataset after Data Augmentation
+│   └── PeruvianRiceDataset/        # Extracted folder structure
+│       ├── train/                  # (70%) Training folder (classes: entero, mancha, quebrado, tiza)
+│       ├── val/                    # (15%) Validation folder (classes: entero, mancha, quebrado, tiza)
+│       └── test/                   # (15%) Test folder (classes: entero, mancha, quebrado, tiza)
+├── .gitattributes                  # Git LFS configuration
+├── LICENSE                         # MIT License
+└── README.md                       # Main documentation
+```
 ---
 
 ## Methodology
