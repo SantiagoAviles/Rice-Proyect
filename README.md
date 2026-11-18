@@ -1,6 +1,6 @@
 # Deep Learning Models for Defect Identification in Oryza Sativa Rice Grains
 
-> **Work:** *Deep Learning Models for Defect Identification in Oryza Sativa Rice Grains: A Comparative Study* — submitted to *AgriEngineering* (2026).
+> **Work:** *Deep Learning Models for Defect Identification in Oryza Sativa Rice Grains: A Comparative Study* — published in *AgriEngineering*, 8(6), 252 (2026). DOI: [10.3390/agriengineering8060252](https://doi.org/10.3390/agriengineering8060252)
 > Yasiel Pérez Vera, Melissa Kristel Chambi Flores, Santiago Alonso Avilés Córdova, Irvin Estuardo Cazorla Macedo, Percy Aaron Luján Biamonte, Edgardo Alfredo Rivero Callohuanca.
 > Universidad Católica de Santa María, Arequipa, Perú.
 
@@ -237,3 +237,22 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## Acknowledgements
 
 Funded by the **Universidad Católica de Santa María**, Arequipa, Perú. We thank the Professional School of Systems Engineering for their support.
+
+---
+
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@article{perezvera2026rice,
+  title   = {Deep Learning Models for Defect Identification in Oryza sativa Rice Grains: A Comparative Study},
+  author  = {P{\'e}rez Vera, Yasiel and Chambi Flores, Melissa Kristel and Avil{\'e}s C{\'o}rdova, Santiago Alonso and Cazorla Macedo, Irvin Estuardo and Luj{\'a}n Biamonte, Percy Aar{\'o}n and Rivero Callohuanca, Edgardo Alfredo},
+  journal = {AgriEngineering},
+  volume  = {8},
+  number  = {6},
+  pages   = {252},
+  year    = {2026},
+  doi     = {10.3390/agriengineering8060252}
+}
+```
